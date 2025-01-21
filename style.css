@@ -277,7 +277,35 @@ main {
     background: none;
     cursor: pointer;
 }
-
+.circle-btn-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 70px;
+}
+.circle-btn {
+    background-color: #F1AF10;
+    color: #D9EFF9;
+    font-size: 1.5rem;
+    font-weight: 900;
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.circle-btn:hover{
+    background-color: #F7F7F7;
+    color: #F1AF10;
+    font-size: 1.9rem;
+    font-weight: 900;
+}
+.left-btn{
+    text-align: center;
+}
 
 
 
@@ -414,5 +442,8 @@ main {
     .card {
         padding: 25px 37px;
         border-radius: 20px;
+    }
+    .circle-btn-container{
+        display: none;
     }
 }
