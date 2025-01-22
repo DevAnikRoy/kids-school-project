@@ -282,7 +282,7 @@ main {
     gap: 20px;
     justify-content: center;
     margin-top: 70px;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
 }
 .circle-btn {
     background-color: #FEA301;
@@ -316,6 +316,10 @@ main {
     justify-content: center;
     gap: 10px;
     /* margin-top: 120px; */ 
+}
+.story-heading{
+    text-align: center;
+    margin-bottom: 60px;
 }
 .small-card-container{
     display: grid;
@@ -378,6 +382,10 @@ main {
     font-weight: 700;
     margin-top: 40px;
     color: rgba(0, 0, 0, 1);
+}
+.story-btn{
+    text-align: center;
+    margin-top: 80px;
 }
 
 
@@ -503,6 +511,10 @@ main {
 
     /* curriculum-section-style */
 
+
+    .curriculum-section{
+        margin-bottom: 50px;
+    }
     .card-container {
         flex-direction: column;
     }
@@ -518,20 +530,37 @@ main {
         display: none;
     }
 
+    /* story section */
 
-
-
-
-
-
-
-
-
-
-
-    /* ============================== */
-    .story-section{
+    .big-card-container{
         display: none;
     }
-
+    .story-heading{
+        margin-bottom: 20px;
+    }
+    .small-card-container{
+        /* width: 358px; */
+        /* display: grid; */
+        grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+        gap: 10px;
+    }
+    .small-card img{
+        width: 183px;
+        /* height: 180px; */
+    }
+    .date-text{
+        padding: 7px 12px;
+        border-radius: 30px;
+        margin-top: -22px;
+        font-size: 0.6rem;
+        font-weight: 500;
+    }
+    .small-card-text{
+        padding: 5px 15px 5px 15px;
+    }
+    .small-card-heading{
+        /* font-size: 0.8rem; */
+        margin-top: 13px;
+        margin-bottom: 5px;
+    }
 }
