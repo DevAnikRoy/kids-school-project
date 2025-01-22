@@ -282,9 +282,10 @@ main {
     gap: 20px;
     justify-content: center;
     margin-top: 70px;
+    margin-bottom: 120px;
 }
 .circle-btn {
-    background-color: #F1AF10;
+    background-color: #FEA301;
     color: #D9EFF9;
     font-size: 1.5rem;
     font-weight: 900;
@@ -299,7 +300,7 @@ main {
 }
 .circle-btn:hover{
     background-color: #F7F7F7;
-    color: #F1AF10;
+    color: #FEA301;
     font-size: 1.9rem;
     font-weight: 900;
 }
@@ -307,7 +308,77 @@ main {
     text-align: center;
 }
 
+/* story section style */
 
+.story-section{
+    background: url(./assets/bg.png);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    /* margin-top: 120px; */ 
+}
+.small-card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.big-card, .small-card{
+    background-color: white;
+    border-radius: 15px;
+}
+.big-card-text{
+    padding: 0px 40px 10px 40px;
+}
+.big-card img, .small-card img{
+    border-start-end-radius: 15px;
+    border-start-start-radius: 15px;
+    /* width: 100%; */
+}
+.date-text{
+    color: white;
+    position: absolute;
+    padding: 10px 16px;
+    border-radius: 45px;
+    margin-top: -65px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.date-text-color-big{
+    background-color: #1FB5FC;
+}
+.big-card-heading{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 40px;
+    color: rgba(0, 0, 0, 1);
+}
+.big-card-paragraph{
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-top: 60px;
+    color: rgba(102, 102, 102, 1);
+}
+.small-card-text{
+    padding: 0px 40px 10px 40px;
+}
+.date-text-color-small-1{
+    background-color: #06d66e;
+}
+.date-text-color-small-2{
+    background-color: #f10a0e;
+}
+.date-text-color-small-3{
+    background-color: #ffb303;
+}
+.date-text-color-small-4{
+    background-color: #d14e7c;
+}
+.small-card-heading{
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-top: 40px;
+    color: rgba(0, 0, 0, 1);
+}
 
 
 
@@ -446,4 +517,21 @@ main {
     .circle-btn-container{
         display: none;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+    /* ============================== */
+    .story-section{
+        display: none;
+    }
+
 }
